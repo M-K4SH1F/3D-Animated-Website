@@ -1,0 +1,455 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+    background-color: #0081af;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0081af;
+    position: relative;
+}
+
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 12vh;
+    width: 100vw;
+    background-color: blanchedalmond;
+}
+
+#page1>nav>img{
+    margin-top: 1.7vw;
+    width: 10%;
+}
+
+.right-nav>button{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: brown;
+}
+.right-nav>button{
+    cursor: pointer;
+}
+
+.bottom-page1{
+    position: absolute;
+    bottom: 5%;
+    height: 35vh;
+    width: 50vw;
+    left: 10%;
+}
+
+.bottom-page1>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: 5vw;
+    font-weight: 500;
+    color: blanchedalmond;
+}
+
+.tagline{
+    position: absolute;
+    bottom: 0%;
+    height: 30%;
+    width: 100%;
+    right: 2%;
+}
+
+.tagline{
+    display: flex;
+    font-family: Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px  30px;
+}
+
+.tagline>button{
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tagline>h4{
+    font-size: 2vw;
+    font-weight: 100;
+    color: blanchedalmond;
+}
+
+#page2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0081af;
+    position: relative;
+    padding: 0vw 8vw;
+    color: #fff;
+}
+
+#page2>h2{
+    font-weight: 100;
+    line-height: 1.3;
+    width: 90%;
+    font-size: 4vh;
+    color: #ffffff91;
+}
+
+#page2>h1{
+    margin-bottom: 3vw;
+}
+
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+}
+
+#page3>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+#page4{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0081af;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#page4>h1{
+    margin-left: 15vw;
+    margin-bottom: 2vw;
+    font-size: 4vw;
+    color: #fff;
+}
+
+#page4>h2{
+    margin-left: 15vw;
+    width: 70%;
+    font-size: 2vw;
+    font-weight: 100;
+    color: #ffffff91;
+}
+
+#page5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0081af;
+}
+
+#page5>canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+#page6{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0081af;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#page6>h1{
+    margin-left: 15vw;
+    margin-bottom: 2vw;
+    font-size: 4vw;
+    color: #fff;
+}
+
+#page6>h2{
+    margin-left: 15vw;
+    width: 70%;
+    font-size: 2vw;
+    font-weight: 100;
+    color: #ffffff91;
+}
+
+#page7{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0081af;
+}
+
+.left7{
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+.left7>h1{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translateY( -50% );
+    font-size: 5vw;
+    font-weight: 200;
+    color: #fff;
+    line-height: 1;
+}
+
+.right7{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.right7-center{
+    height: 50%;
+    width: 85%;
+    background-color: aqua;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translateY( -50% );
+    background-image: url(https://media.designerpages.com/wp-content/uploads/2022/01/Blu-Ponti-Detail.jpeg);
+    background-size: cover;
+    left: 5%;
+}
+
+#page8{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:#0081af;
+}
+
+.right8{
+  height: 100%;
+  width: 60%;
+  position: relative;
+  left: 40%; 
+}
+
+.right8-inner{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 33.3%;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.right8-inner>h1{
+    font-size: 2vw;
+}
+
+.right8-inner>p{
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    width: 80%;
+}
+
+#page9{
+    position: relative;
+    height: 110vh;
+    width: 100vw;
+    background-color: blanchedalmond;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#page9>h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 4vw;
+    color: black;
+    font-weight: 500;
+}
+
+.page9-inner{
+    display: flex;
+    top: 18%;
+    position: relative;
+    margin-bottom: 2vw;
+    height: 24%;
+    width: 100%;
+}
+
+.left9{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    left: 5%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.left9>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.right9{
+    padding-top: 2vw;
+    color: #000;
+    left: 50%;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+.right9>h4{
+    font-weight: 100;
+}
+
+.right9>h1{
+    font-size: 2vw;
+}
+
+#page10{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0081af;
+    color: #fff;
+}
+
+.page10-inner{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page10-inner>h1{
+    font-size: 5vw;
+    font-weight: 100;
+}
+
+.page10-inner>p{
+    font-size: 1.3vw;
+}
+
+#page11{
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    background-color: #000000d0;
+    color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 7vw 10vw;
+}
+
+#page11>h1{
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 100;
+}
+
+#page11>button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+    margin-top: 2vw;
+    cursor: pointer;
+}
+
+#page12{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: #000000d0;
+}
+
+.page12-inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+    height: 33.3%;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blanchedalmond;
+    border-top: .5px solid #ffffff7e;
+    border-bottom: .5px  solid #ffffff7e;
+    cursor: pointer;
+}
+
+.page12-inner>i{
+    font-weight: 100;
+    font-size: 2.4vw;
+    position: relative;
+    z-index: 9999;
+}
+
+.page12-inner>h1{
+    font-size: 3vw;
+    font-weight: 100;
+    position: relative;
+    z-index: 9999;
+}
+
+.center12{
+    height: 0%;
+    width: 100%;
+    background-color:#0081af;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all ease .5s;
+}
+
+.page12-inner:hover .center12{
+    height: 100%;
+}
