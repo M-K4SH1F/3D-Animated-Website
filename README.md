@@ -76,6 +76,11 @@ https://github.com/M-K4SH1F/3D-Animated-Website/assets/159590221/1adf480b-f03d-4
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/M-K4SH1F/3D-Animated-Website.git
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd 3D-Animated-Website
+3. **Open `index.html` in Your Browser:**
+   - Simply double-click on the `index.html` file or open it with your preferred web browser.
 
 ## Contact
 
