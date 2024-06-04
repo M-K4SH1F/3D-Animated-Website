@@ -1,6 +1,6 @@
 # 3D Animated Website
 
-Welcome to the 3D Animated Website repository! This project showcases a creative and reactive 3D animated website built using HTML, CSS, and JavaScript. 
+Welcome to the 3D Animated Website repository! This project showcases a creative and reactive 3D animated website of Hotel Boutique built using HTML, CSS, and JavaScript. 
 
 ## Features
 
